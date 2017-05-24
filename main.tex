@@ -43,15 +43,15 @@
 
 % All information in this block is optional, comment out any lines you don't need
 \title{My Resume}
-\address{Bolluca Mah. Itina sk. No:8b/3}{Arnavutkoy, Istanbul}
-\mobile{+90 (537) 502 9294}
+\address{Badan Pengurusan Bersama UJANA ApartmentNo: 9 Persiaran Ledang Heights, East Ledang}{Nusajaya, Johor}
+\mobile{+60 (019) 900 0764}
 %\phone{(000) 111 1112}
 %\fax{(000) 111 1113}
 \email{rkirmizi@gmail.com}
 \homepage{rkirmizi.org}{rkirmizi.org} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
 %\extrainfo{additional information}
 \photo[70pt][0.4pt]{linkedinfoto} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
-\quote{"There is no spoon."}
+\quote{"In theory, there is no difference between theory and practice. But, in practice, there is.."}
 
 %----------------------------------------------------------------------------------------
 
@@ -59,14 +59,33 @@
 
 \makecvtitle % Print the CV title
 
+
+\section{Skills}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Software Development}{Database Design}
+\cvlistdoubleitem{Scraping}{Integrations}
+\cvlistdoubleitem{Gnu/Linux}{Virtualization}
+\cvlistdoubleitem{Docker}{Ansible}
+\cvlistdoubleitem{Python}{Django}
+\cvlistdoubleitem{VueJS}{Angular}
+\cvlistdoubleitem{Git}{Agile Methodologies}
+\cvlistdoubleitem{Rabbitmq}{Celery}
+\cvlistdoubleitem{REST}{BASH}
+
+
 %----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
+%	Networks SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Education}
+\section{Networks}
+\cvitemwithcomment{Linkedin}{https://www.linkedin.com/in/recep-kirmizi-b2b55822}{}
+\cvitemwithcomment{Upwork}{https://www.upwork.com/fl/recepkirmizi}{}
+\cvitemwithcomment{Github}{https://github.com/rkirmizi}{}
+\cvitemwithcomment{Twitter}{https://twitter.com/rkirmizi}{}
 
-\cventry{2002--2011}{Bachelor of Public Finance}{Cukurova University}{Adana}{\textit{}}{}  % Arguments not required can be left empty
-\cventry{1994--2002}{Anatolian High School}{}{Zonguldak}{\textit{}}{}
+
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
@@ -78,8 +97,11 @@
 
 
 %------------------------------------------------
+\cventry{2016--Present}{Freelance Software Developer}{\textsc{Upwork Inc.}}{Global}{}{
+Upwork is one of the world's leading freelancing website. I am a Top Rated program member. You can checkout my profile via: https://www.upwork.com/fl/recepkirmizi 
+}
 
-\cventry{2015--Present}{Senior Python/Django developer}{\textsc{MetGlobal Ltd.}}{Istanbul}{}{
+\cventry{2015--2016}{Senior Python/Django developer}{\textsc{MetGlobal Ltd.}}{Istanbul}{}{
 Metglobal is one of the biggest Global wholesalers of hotels and travel services.
 As a Sr. Backend Developer. I'm responsible for building the API's which feeds the mobile and mobile web interfaces.
 \newline
@@ -95,6 +117,7 @@ Our key technologies are:
 \item Linux
 \item redis
 \item rabbitmq
+\item Elasticsearch
 \end{itemize}
 }
 
@@ -148,24 +171,32 @@ I developed so many web sites \& web applications for customers \& for in house 
 }
 %------------------------------------------------
 
-%----------------------------------------------------------------------------------------
-%	COMPUTER SKILLS SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Computer skills}
-
-\cvitem{Basic}{\textsc{java}, c++, Arduino, jQuery, React, AngularJS}
-\cvitem{Advanced}{Python, Linux, Postgresql, Django, Rabbitmq, Redis, Celery, REST}
 
 %----------------------------------------------------------------------------------------
-%	COMMUNICATION SKILLS SECTION
+%	SEMINARS & PUBLICATIONS
 %----------------------------------------------------------------------------------------
 
-\section{Communication Skills}
+\section{Seminars \& Publications}
 
-\cvitem{2010}{List of my lectures and talks can be find at: \href{https://seminer.linux.org.tr/category/konusmacilar/recep-kirmizi/}{HERE}
-I'll add all of them into my cv.
-}
+\cventry{2012}{What is Linux \& What is Free Software}{Beykent University}{Istanbul}{\textit{}}{}
+\cventry{2012}{Introduction to Free Software}{Istanbul Technical University}{Istanbul}{\textit{}}{}
+\cventry{2011}{Pardus for everything you can do with your computer}{Cankaya University}{Ankara}{\textit{}}{}
+\cventry{2011}{Introduction to Pardus Gnu/Linux}{Ankara University}{Ankara}{\textit{}}{}
+\cventry{2011}{Migrate your website to Wordpress}{Free Software Days}{Istanbul}{\textit{}}{}
+\cventry{2011}{Introduction to Django}{Academic IT Conference}{Malatya}{\textit{}}{}
+
+These are a few of my Seminars \& Lectures. There are more of them which are coordinated by Turkish Linux users Association. Below ones can be verified by the address: https://seminer.linux.org.tr/category/konusmacilar/recep-kirmizi/
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2002--2008}{Bachelor of Science}{Cukurova University}{Adana}{\textit{}}{}  % Arguments not required can be left empty
+\cventry{1994--2002}{Anatolian High School}{}{Zonguldak}{\textit{}}{}
+
+
 %----------------------------------------------------------------------------------------
 %	LANGUAGES SECTION
 %----------------------------------------------------------------------------------------
